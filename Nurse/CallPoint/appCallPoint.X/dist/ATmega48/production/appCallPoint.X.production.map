@@ -1,0 +1,70 @@
+Archive member included to satisfy reference by file (symbol)
+
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o)
+                              build/ATmega48/production/src/AppCommuincation.o (getSystemTick)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o) (buttonSync)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buz.o)
+                              build/ATmega48/production/src/app.o (buzGenerateSignalTime)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(eeprom.o)
+                              build/ATmega48/production/src/AppCommuincation.o (eepromPutByte)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+                              build/ATmega48/production/src/AppCommuincation.o (StartTransmission)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(mega.o)
+                              C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega48a.o (main)
+..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buffers.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o) (byteBufferInit)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buffers.o) (__udivmodqi4)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o) (__udivmodsi4)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+                              C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega48a.o (exit)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+                              build/ATmega48/production/src/AppCommuincation.o (__do_clear_bss)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o) (__muluhisi3)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+                              c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o) (__umulhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+offTime             0x4               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buz.o)
+gu8StartComm        0x1               build/ATmega48/production/src/AppCommuincation.o
+gu8Data             0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gsButtonDescriptor  0x6               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+gu8ButtonBuffer     0x4               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+gu8collisionCounter
+                    0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8LastRepeatKey    0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+gsTransmissionFrame
+                    0xa               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8SendByteCount    0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8ReceiveBuf       0xb               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8csmaStatus       0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gTaskTick           0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o)
+gu8appState         0x1               build/ATmega48/production/src/app.o
+gu8BuzState         0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buz.o)
+gpFcomHostCallback  0x2               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8RepeatCount      0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+gu8LEDTest          0x1               build/ATmega48/production/src/app.o
+gu16timeValue       0x2               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8ButtonCounterBuffer
+                    0x4               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(button.o)
+gsbuzTime           0x8               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(buz.o)
+gu8aPPLED_STATE     0x1               build/ATmega48/production/src/app.o
+gu8SendBuf          0xb               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8Address          0x1               build/ATmega48/production/src/AppCommuincation.o
+gSystemTick         0x4               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o)
+gsPingTimer         0x8               build/ATmega48/production/src/AppCommuincation.o
+gpFcomClientCallback
+                    0x2               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8CallPointState   0x1               build/ATmega48/production/src/AppCommuincation.o
+gstLED_TIME         0x8               build/ATmega48/production/src/app.o
+gu8ReceiveByteCount
+                    0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8RequestState     0x1               build/ATmega48/production/src/AppCommuincation.o
+gu8ErrorCode        0x1               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(sys.o)
+gsReceiveFrame      0xa               ..\..\..\MEGA\mega.X\dist\ATmega48\production\mega.X.a(csma_cd.o)
+gu8CallPoint        0x5               build/ATmega48/production/src/AppCommuincation.o

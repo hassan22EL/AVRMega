@@ -1,0 +1,51 @@
+make -f nbproject/Makefile-ATmega8ActiveCA.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'D:/Company/SMART/Nurse/CallPoint/appCallPoint.X'
+rm -f  -r .ca/build/ATmega8ActiveCA/production
+rm -f  -r .ca/dist/ATmega8ActiveCA/production
+make[1]: Leaving directory 'D:/Company/SMART/Nurse/CallPoint/appCallPoint.X'
+[32mCLEAN SUCCESSFUL (total time: 313ms)[0m
+[31msrc/app.c: In function 'appReadEvent':
+src/app.c:118:15: warning: implicit declaration of function 'buttonGetEvent' [-Wimplicit-function-declaration]
+     u8event = buttonGetEvent();
+               ^
+src/app.c:119:20: error: 'NOT_AN_EVENT' undeclared (first use in this function)
+     if (u8event == NOT_AN_EVENT) {
+                    ^
+src/app.c:119:20: note: each undeclared identifier is reported only once for each function it appears in
+src/app.c:123:20: warning: implicit declaration of function 'BUTTON_PRESS' [-Wimplicit-function-declaration]
+     if (u8event == BUTTON_PRESS(CALL_SW)) {
+                    ^
+In file included from src/../inc/app.h:36:0,
+                 from src/app.c:12:
+src/../inc/appRes.h:48:33: error: 'SW01' undeclared (first use in this function)
+ #define           CALL_SW       SW01
+                                 ^
+src/app.c:123:33: note: in expansion of macro 'CALL_SW'
+     if (u8event == BUTTON_PRESS(CALL_SW)) {
+                                 ^
+src/../inc/appRes.h:50:33: error: 'SW03' undeclared (first use in this function)
+ #define           ASS_SW        SW03
+                                 ^
+src/app.c:128:33: note: in expansion of macro 'ASS_SW'
+     if (u8event == BUTTON_PRESS(ASS_SW)) {
+                                 ^
+src/../inc/appRes.h:49:33: error: 'SW02' undeclared (first use in this function)
+ #define           EMG_SW        SW02
+                                 ^
+src/app.c:133:33: note: in expansion of macro 'EMG_SW'
+     if (u8event == BUTTON_PRESS(EMG_SW)) {
+                                 ^
+src/../inc/appRes.h:51:33: error: 'SW04' undeclared (first use in this function)
+ #define           CENCEL_SW     SW04
+                                 ^
+src/app.c:138:33: note: in expansion of macro 'CENCEL_SW'
+     if (u8event == BUTTON_PRESS(CENCEL_SW)) {
+                                 ^[0m
+[31mmake[2]: *** [.ca/build/ATmega8ActiveCA/production/src/app.o] Error 1
+make[2]: *** Waiting for unfinished jobs....[0m
+nbproject/Makefile-ATmega8ActiveCA.mk:129: recipe for target '.ca/build/ATmega8ActiveCA/production/src/app.o' failed
+nbproject/Makefile-ATmega8ActiveCA.mk:91: recipe for target '.build-conf' failed
+nbproject/Makefile-impl.mk:39: recipe for target '.build-impl' failed
+[31mmake[1]: *** [.build-conf] Error 2
+make: *** [.build-impl] Error 2[0m
+[31mBUILD FAILED (exit value 2, total time: 1s)[0m
