@@ -1,0 +1,69 @@
+/* Microchip Technology Inc. and its subsidiaries.  You may use this software 
+ * and any derivatives exclusively with Microchip products. 
+ * 
+ * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".  NO WARRANTIES, WHETHER 
+ * EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED 
+ * WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A 
+ * PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION 
+ * WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION. 
+ *
+ * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+ * INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+ * WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS 
+ * BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.  TO THE 
+ * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS 
+ * IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF 
+ * ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *
+ * MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE 
+ * TERMS. 
+ */
+
+/* 
+ * File:   
+ * Author: 
+ * Comments:
+ * Revision history: 
+ */
+
+// This is a guard condition so that contents of this file are not included
+// more than once.  
+#ifndef XC_KEYPADEVENTS_H
+#define	XC_KEYPADEVENTS_H
+
+#if KEYPAD_MODULE == 0
+#error "Please Enable Keypad Module"
+#endif
+
+
+
+#ifndef   KEYPAD_MAX_EVENT       
+#define   KEYPAD_MAX_EVENT                     (2)
+#endif 
+
+#if  KEYPAD_MAX_EVENT == 1 
+#define  KEYPAD_MASK_EVENT       0x01
+#elif KEYPAD_MAX_EVENT ==2
+#define  KEYPAD_MASK_EVENT       0x03
+#elif KEYPAD_MAX_EVENT ==3
+#define  KEYPAD_MASK_EVENT       0x07
+#elif KEYPAD_MAX_EVENT ==4
+#define  KEYPAD_MASK_EVENT       0x0F
+#elif KEYPAD_MAX_EVENT ==5
+#define  KEYPAD_MASK_EVENT       0x1F
+#elif KEYPAD_MAX_EVENT ==6
+#define  KEYPAD_MASK_EVENT       0x3f
+#elif KEYPAD_MAX_EVENT ==7
+#define  KEYPAD_MASK_EVENT       0x7F
+#elif KEYPAD_MAX_EVENT ==8
+#define  KEYPAD_MASK_EVENT       0xFF
+#else 
+#error "KEYPAD_MAX_EVENT out of the Range"
+#endif
+
+void keypadEventInit();
+void keypadEventSet(uint8_t u8Index);
+void keypadEvent();
+uint8_t keypadEventRead(uint8_t u8Index);
+#endif	/* XC_KEYPADEVENTS_H */
+

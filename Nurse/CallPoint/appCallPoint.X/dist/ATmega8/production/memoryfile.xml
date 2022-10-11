@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/ATmega8/production/appCallPoint.X.production.elf">                 
+    <memory name="program">              
+      <units>bytes</units>                 
+      <length>8192</length>                 
+      <used>4750</used>                     
+      <free>3442</free>                     
+    </memory>                              
+    <memory name="data">                 
+      <units>bytes</units>                 
+      <length>1024</length>                 
+      <used>122</used>                     
+      <free>902</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

@@ -1,0 +1,1202 @@
+Archive member included to satisfy reference by file (symbol)
+
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                              build/Atmega8/production/src/AppCommuincation.o (getSystemTick)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                              build/Atmega8/production/src/AppCommuincation.o (byteBufferInit)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o) (buttonSync)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                              build/Atmega8/production/src/app.o (buzGenerateSignalTime)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+                              build/Atmega8/production/src/AppCommuincation.o (eepromPutByte)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+                              build/Atmega8/production/src/app.o (digitalpinMode)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                              build/Atmega8/production/src/AppCommuincation.o (StartTransmission)
+..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+                              C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o (main)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o) (__udivmodqi4)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o) (__udivmodsi4)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+                              C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o (exit)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+                              build/Atmega8/production/src/app.o (__do_clear_bss)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o) (__muluhisi3)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o) (__prologue_saves__)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+                              ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o) (__epilogue_restores__)
+c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+                              c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o) (__umulhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+offTime             0x4               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+gu8appRequest       0x5               build/Atmega8/production/src/AppCommuincation.o
+gu8Data             0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gsButtonDescriptor  0x6               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+gsResponseTimeOut   0x8               build/Atmega8/production/src/AppCommuincation.o
+gu8ButtonBuffer     0x4               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+gu8collisionCounter
+                    0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8LastRepeatKey    0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+gsTransmissionFrame
+                    0xa               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8SendByteCount    0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8ReceiveBuf       0xb               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8csmaStatus       0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gTaskTick           0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+gu8BuzState         0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+gpFcomHostCallback  0x2               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8RepeatCount      0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+gu16timeValue       0x2               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8ButtonCounterBuffer
+                    0x4               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+gsbuzTime           0x8               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+gu8aPPLED_STATE     0x1               build/Atmega8/production/src/app.o
+gu8SendBuf          0xb               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8Address          0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gSystemTick         0x4               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+gu8CommFlags        0x1               build/Atmega8/production/src/AppCommuincation.o
+gpFcomClientCallback
+                    0x2               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8ReceiveByteCount
+                    0x1               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8RequestState     0x1               build/Atmega8/production/src/AppCommuincation.o
+gu8aPPBUZState      0x1               build/Atmega8/production/src/app.o
+gstRequest          0x6               build/Atmega8/production/src/AppCommuincation.o
+gsReceiveFrame      0xa               ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+gu8CallPoint        0x9               build/Atmega8/production/src/AppCommuincation.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .bss           0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .text          0x0000000000000000        0x0 build/Atmega8/production/src/app.o
+ .data          0x0000000000000000        0x0 build/Atmega8/production/src/app.o
+ .bss           0x0000000000000000        0x0 build/Atmega8/production/src/app.o
+ .text.appReadEvent
+                0x0000000000000000        0x8 build/Atmega8/production/src/app.o
+ .text          0x0000000000000000        0x0 build/Atmega8/production/src/AppCommuincation.o
+ .data          0x0000000000000000        0x0 build/Atmega8/production/src/AppCommuincation.o
+ .bss           0x0000000000000000        0x0 build/Atmega8/production/src/AppCommuincation.o
+ .text.appCommReadCMD
+                0x0000000000000000        0x6 build/Atmega8/production/src/AppCommuincation.o
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .text.sysTimerInit
+                0x0000000000000000       0xa4 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .text.sysTimerInitMS
+                0x0000000000000000       0xb4 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .text.sysTimerReset
+                0x0000000000000000       0x42 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .text.sysTimerCheck
+                0x0000000000000000       0x92 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.structBufferInit
+                0x0000000000000000        0xa ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.TLVBufferInit
+                0x0000000000000000       0x12 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.getExistingLength
+                0x0000000000000000        0x6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.getTlvCount
+                0x0000000000000000        0x6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.getStructCount
+                0x0000000000000000        0xa ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.putStruct
+                0x0000000000000000       0x56 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.getStruct
+                0x0000000000000000       0x3a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.putTLV   0x0000000000000000       0x74 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text.getTLV   0x0000000000000000       0x46 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .text.buzStop  0x0000000000000000        0x8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalTogglePin
+                0x0000000000000000       0x4a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPortMode
+                0x0000000000000000       0x7c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPortWrite
+                0x0000000000000000       0x22 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPortRead
+                0x0000000000000000       0x26 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPinsMode
+                0x0000000000000000       0x7c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPinsWrite
+                0x0000000000000000       0x2e ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text.digitalPinsRead
+                0x0000000000000000       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .text.csmaGetAddress
+                0x0000000000000000        0x6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .text          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+ .data          0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+ .bss           0x0000000000000000        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x18 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodqi4.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .stack.descriptors
+                0x0000000000000000       0x19 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .stack.descriptors
+                0x0000000000000000       0x19 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000002000 xr
+data             0x0000000000800060 0x0000000000000400 rw !x
+eeprom           0x0000000000810000 0x0000000000000200 rw !x
+fuse             0x0000000000820000 0x0000000000000002 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+LOAD build/Atmega8/production/src/app.o
+LOAD build/Atmega8/production/src/AppCommuincation.o
+LOAD ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a
+START GROUP
+LOAD c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/memx-const\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a
+LOAD c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/memx-const\libm.a
+LOAD c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/memx-const\libc.a
+LOAD C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const\libatmega8.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000002000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                [0x0000000000000400]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000200]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000       0x7c
+ *(.vectors)
+ .vectors       0x0000000000000000       0x26 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.dinit)
+ .dinit         0x0000000000000026        0x5 data_init
+                0x000000000000002c                . = ALIGN (0x2)
+ *fill*         0x000000000000002b        0x1 
+                0x000000000000002c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000002c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000002c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+                0x000000000000002c                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000002c                __ctors_start = .
+ *(.ctors)
+                0x000000000000002c                __ctors_end = .
+                0x000000000000002c                __dtors_start = .
+ *(.dtors)
+                0x000000000000002c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000002c        0x0 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+                0x000000000000002c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000002c        0xc C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000038       0x3c c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_copy_data.o)
+                0x0000000000000038                __do_copy_data
+                0x0000000000000066                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000074        0x4 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ *(.init9)
+                0x0000000000000078                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000078        0x0 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+                0x0000000000000078                _exit
+                0x0000000000000078                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000078        0x4 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000000007c                _etext = .
+
+.data           0x0000000000800060        0x0 load address 0x000000000000007c
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800060                . = ALIGN (0x2)
+                0x0000000000800060                _edata = .
+                [!provide]                        PROVIDE (__data_end, .)
+
+.bss            0x0000000000800060       0x78
+                [!provide]                        PROVIDE (__bss_start, .)
+ *(COMMON)
+ COMMON         0x0000000000800060        0x2 build/Atmega8/production/src/app.o
+                0x0000000000800060                gu8aPPLED_STATE
+                0x0000000000800061                gu8aPPBUZState
+ COMMON         0x0000000000800062       0x1e build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000800062                gu8appRequest
+                0x0000000000800067                gsResponseTimeOut
+                0x000000000080006f                gu8CommFlags
+                0x0000000000800070                gu8RequestState
+                0x0000000000800071                gstRequest
+                0x0000000000800077                gu8CallPoint
+ COMMON         0x0000000000800080        0x5 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                0x0000000000800080                gTaskTick
+                0x0000000000800081                gSystemTick
+ COMMON         0x0000000000800085       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                0x0000000000800085                gsButtonDescriptor
+                0x000000000080008b                gu8ButtonBuffer
+                0x000000000080008f                gu8LastRepeatKey
+                0x0000000000800090                gu8RepeatCount
+                0x0000000000800091                gu8ButtonCounterBuffer
+ COMMON         0x0000000000800095        0xd ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x0000000000800095                offTime
+                0x0000000000800099                gu8BuzState
+                0x000000000080009a                gsbuzTime
+ COMMON         0x00000000008000a2       0x36 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x00000000008000a2                gu8Data
+                0x00000000008000a3                gu8collisionCounter
+                0x00000000008000a4                gsTransmissionFrame
+                0x00000000008000ae                gu8SendByteCount
+                0x00000000008000af                gu8ReceiveBuf
+                0x00000000008000ba                gu8csmaStatus
+                0x00000000008000bb                gpFcomHostCallback
+                0x00000000008000bd                gu16timeValue
+                0x00000000008000bf                gu8SendBuf
+                0x00000000008000ca                gu8Address
+                0x00000000008000cb                gpFcomClientCallback
+                0x00000000008000cd                gu8ReceiveByteCount
+                0x00000000008000ce                gsReceiveFrame
+                [!provide]                        PROVIDE (__bss_end, .)
+                0x000000000000007c                __data_load_start = LOADADDR (.data)
+                0x000000000000007c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008000d8        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008000d8                _end = .
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2f
+ *(.comment)
+ .comment       0x0000000000000000       0x2f build/Atmega8/production/src/app.o
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 build/Atmega8/production/src/AppCommuincation.o
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .comment       0x000000000000002f       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.stack.descriptors.hdr
+                0x0000000000000000       0x38
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors.hdr
+                0x000000000000000e        0xe c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_exit.o)
+ .stack.descriptors.hdr
+                0x000000000000001c        0xe c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+ .stack.descriptors.hdr
+                0x000000000000002a        0xe c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x398
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x50 build/Atmega8/production/src/app.o
+ .debug_aranges
+                0x0000000000000050       0x88 build/Atmega8/production/src/AppCommuincation.o
+ .debug_aranges
+                0x00000000000000d8       0x58 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_aranges
+                0x0000000000000130       0x88 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_aranges
+                0x00000000000001b8       0x38 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_aranges
+                0x00000000000001f0       0x50 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_aranges
+                0x0000000000000240       0x28 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_aranges
+                0x0000000000000268       0x68 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_aranges
+                0x00000000000002d0       0xa8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_aranges
+                0x0000000000000378       0x20 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x73e2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x48c C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .debug_info    0x000000000000048c      0xe32 build/Atmega8/production/src/app.o
+ .debug_info    0x00000000000012be     0x12d2 build/Atmega8/production/src/AppCommuincation.o
+ .debug_info    0x0000000000002590      0x73f ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_info    0x0000000000002ccf      0xa33 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_info    0x0000000000003702      0xc87 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_info    0x0000000000004389      0xbc6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_info    0x0000000000004f4f      0x4a4 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_info    0x00000000000053f3      0xed7 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_info    0x00000000000062ca      0xbcd ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_info    0x0000000000006e97      0x54b ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_abbrev   0x0000000000000000     0x1401
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x44e C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .debug_abbrev  0x000000000000044e      0x1a3 build/Atmega8/production/src/app.o
+ .debug_abbrev  0x00000000000005f1      0x2cd build/Atmega8/production/src/AppCommuincation.o
+ .debug_abbrev  0x00000000000008be      0x176 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_abbrev  0x0000000000000a34      0x141 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_abbrev  0x0000000000000b75      0x1bd ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_abbrev  0x0000000000000d32      0x191 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_abbrev  0x0000000000000ec3       0xa5 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_abbrev  0x0000000000000f68      0x10c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_abbrev  0x0000000000001074      0x2c0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_abbrev  0x0000000000001334       0xcd ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_line     0x0000000000000000     0x1fa2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x10d C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .debug_line    0x000000000000010d      0x246 build/Atmega8/production/src/app.o
+ .debug_line    0x0000000000000353      0x615 build/Atmega8/production/src/AppCommuincation.o
+ .debug_line    0x0000000000000968      0x2f6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_line    0x0000000000000c5e      0x364 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_line    0x0000000000000fc2      0x21f ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_line    0x00000000000011e1      0x1fe ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_line    0x00000000000013df      0x138 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_line    0x0000000000001517      0x349 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_line    0x0000000000001860      0x5d8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_line    0x0000000000001e38      0x16a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_frame    0x0000000000000000      0x934
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x8c build/Atmega8/production/src/app.o
+ .debug_frame   0x000000000000008c      0x12c build/Atmega8/production/src/AppCommuincation.o
+ .debug_frame   0x00000000000001b8      0x15c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_frame   0x0000000000000314      0x194 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_frame   0x00000000000004a8       0x68 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_frame   0x0000000000000510       0xb0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_frame   0x00000000000005c0       0x34 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_frame   0x00000000000005f4       0xfc ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_frame   0x00000000000006f0      0x220 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_frame   0x0000000000000910       0x24 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_str      0x0000000000000000      0x483
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x17a C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+ .debug_str     0x000000000000017a       0xc4 build/Atmega8/production/src/app.o
+ .debug_str     0x000000000000023e       0x9e build/Atmega8/production/src/AppCommuincation.o
+ .debug_str     0x00000000000002dc       0x28 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_str     0x0000000000000304       0x48 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_str     0x000000000000034c       0x43 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_str     0x000000000000038f       0x3a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_str     0x00000000000003c9        0x0 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_str     0x00000000000003c9       0x6f ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_str     0x0000000000000438        0xd ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_str     0x0000000000000445       0x3e ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_loc      0x0000000000000000     0x1980
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x26 build/Atmega8/production/src/app.o
+ .debug_loc     0x0000000000000026      0x336 build/Atmega8/production/src/AppCommuincation.o
+ .debug_loc     0x000000000000035c      0x324 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_loc     0x0000000000000680      0x5d6 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_loc     0x0000000000000c56      0x1dc ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_loc     0x0000000000000e32      0x177 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_loc     0x0000000000000fa9       0x50 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_loc     0x0000000000000ff9      0x741 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_loc     0x000000000000173a      0x246 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x370
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x40 build/Atmega8/production/src/app.o
+ .debug_ranges  0x0000000000000040       0xa8 build/Atmega8/production/src/AppCommuincation.o
+ .debug_ranges  0x00000000000000e8       0x48 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+ .debug_ranges  0x0000000000000130       0x90 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+ .debug_ranges  0x00000000000001c0       0x28 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+ .debug_ranges  0x00000000000001e8       0x40 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+ .debug_ranges  0x0000000000000228       0x18 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+ .debug_ranges  0x0000000000000240       0x58 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+ .debug_ranges  0x0000000000000298       0xc8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+ .debug_ranges  0x0000000000000360       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(dist/Atmega8/production/app.X.production.elf elf32-avr)
+LOAD linker stubs
+LOAD data_init
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+
+.progmemx.data.digital_pin_to_bit_mask_PGM
+                0x000000000000007c       0x61
+ .progmemx.data.digital_pin_to_bit_mask_PGM
+                0x000000000000007c       0x61 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+
+.progmemx.data.digital_pin_to_port_PGM
+                0x00000000000000dd       0x61
+ .progmemx.data.digital_pin_to_port_PGM
+                0x00000000000000dd       0x61 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+
+.progmemx.data.port_to_output_PGM
+                0x000000000000013e       0x1a
+ .progmemx.data.port_to_output_PGM
+                0x000000000000013e       0x1a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+
+.progmemx.data.port_to_mode_PGM
+                0x0000000000000158       0x1a
+ .progmemx.data.port_to_mode_PGM
+                0x0000000000000158       0x1a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+
+.progmemx.data.port_to_input_PGM
+                0x0000000000000172       0x1a
+ .progmemx.data.port_to_input_PGM
+                0x0000000000000172       0x1a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+
+.text.appCommunication
+                0x000000000000018c      0x192
+ .text.appCommunication
+                0x000000000000018c      0x192 build/Atmega8/production/src/AppCommuincation.o
+                0x000000000000018c                appCommunication
+
+.text.__vector_11
+                0x000000000000031e      0x120
+ .text.__vector_11
+                0x000000000000031e      0x120 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x000000000000031e                __vector_11
+
+.text.buttonScan
+                0x000000000000043e       0xf8
+ .text.buttonScan
+                0x000000000000043e       0xf8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                0x000000000000043e                buttonScan
+
+.text.__vector_6
+                0x0000000000000536       0xcc
+ .text.__vector_6
+                0x0000000000000536       0xcc ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000536                __vector_6
+
+.text.digitalpinMode
+                0x0000000000000602       0xb8
+ .text.digitalpinMode
+                0x0000000000000602       0xb8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+                0x0000000000000602                digitalpinMode
+
+.text.appUpdateState
+                0x00000000000006ba       0xb6
+ .text.appUpdateState
+                0x00000000000006ba       0xb6 build/Atmega8/production/src/app.o
+                0x00000000000006ba                appUpdateState
+
+.text.buzDriver
+                0x0000000000000770       0x9a
+ .text.buzDriver
+                0x0000000000000770       0x9a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x0000000000000770                buzDriver
+
+.text.appCommClinentResponse
+                0x000000000000080a       0x98
+ .text.appCommClinentResponse
+                0x000000000000080a       0x98 build/Atmega8/production/src/AppCommuincation.o
+                0x000000000000080a                appCommClinentResponse
+
+.text.__vector_9
+                0x00000000000008a2       0x94
+ .text.__vector_9
+                0x00000000000008a2       0x94 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                0x00000000000008a2                __vector_9
+
+.text.ReceiverParsingFram
+                0x0000000000000936       0x8a
+ .text.ReceiverParsingFram
+                0x0000000000000936       0x8a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000936                ReceiverParsingFram
+
+.text.buzGenerateSignalTime
+                0x00000000000009c0       0x88
+ .text.buzGenerateSignalTime
+                0x00000000000009c0       0x88 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x00000000000009c0                buzGenerateSignalTime
+
+.text.appcommInit
+                0x0000000000000a48       0x80
+ .text.appcommInit
+                0x0000000000000a48       0x80 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000000a48                appcommInit
+
+.text.appCommRequestHandle
+                0x0000000000000ac8       0x70
+ .text.appCommRequestHandle
+                0x0000000000000ac8       0x70 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000000ac8                appCommRequestHandle
+
+.text.csma_Regiter
+                0x0000000000000b38       0x68
+ .text.csma_Regiter
+                0x0000000000000b38       0x68 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000b38                csma_Regiter
+
+.text.appCommSetPoint
+                0x0000000000000ba0       0x62
+ .text.appCommSetPoint
+                0x0000000000000ba0       0x62 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000000ba0                appCommSetPoint
+
+.text.sysIsTimeout
+                0x0000000000000c02       0x62
+ .text.sysIsTimeout
+                0x0000000000000c02       0x62 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                0x0000000000000c02                sysIsTimeout
+
+.text.Encapsulate
+                0x0000000000000c64       0x60
+ .text.Encapsulate
+                0x0000000000000c64       0x60 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000c64                Encapsulate
+
+.text.csmaInit  0x0000000000000cc4       0x5e
+ .text.csmaInit
+                0x0000000000000cc4       0x5e ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000cc4                csmaInit
+
+.text.digitalPinRead
+                0x0000000000000d22       0x5a
+ .text.digitalPinRead
+                0x0000000000000d22       0x5a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+                0x0000000000000d22                digitalPinRead
+
+.text.digitalPinWrite
+                0x0000000000000d7c       0x54
+ .text.digitalPinWrite
+                0x0000000000000d7c       0x54 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(gpio.o)
+                0x0000000000000d7c                digitalPinWrite
+
+.text.__vector_1
+                0x0000000000000dd0       0x50
+ .text.__vector_1
+                0x0000000000000dd0       0x50 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000dd0                __vector_1
+
+.text.appPingResPonse
+                0x0000000000000e20       0x4c
+ .text.appPingResPonse
+                0x0000000000000e20       0x4c build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000000e20                appPingResPonse
+
+.text.buttonSync
+                0x0000000000000e6c       0x4c
+ .text.buttonSync
+                0x0000000000000e6c       0x4c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                0x0000000000000e6c                buttonSync
+
+.text.getByte   0x0000000000000eb8       0x4a
+ .text.getByte  0x0000000000000eb8       0x4a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                0x0000000000000eb8                getByte
+
+.text.FramNetWork
+                0x0000000000000f02       0x44
+ .text.FramNetWork
+                0x0000000000000f02       0x44 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000000f02                FramNetWork
+
+.text.libgcc.div
+                0x0000000000000f46       0x44
+ .text.libgcc.div
+                0x0000000000000f46       0x44 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_udivmodsi4.o)
+                0x0000000000000f46                __udivmodsi4
+
+.text.putByte   0x0000000000000f8a       0x42
+ .text.putByte  0x0000000000000f8a       0x42 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                0x0000000000000f8a                putByte
+
+.text.buttonDriverInit
+                0x0000000000000fcc       0x42
+ .text.buttonDriverInit
+                0x0000000000000fcc       0x42 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                0x0000000000000fcc                buttonDriverInit
+
+.text.main      0x000000000000100e       0x40
+ .text.main     0x000000000000100e       0x40 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(mega.o)
+                0x000000000000100e                main
+
+.text.libgcc.prologue
+                0x000000000000104e       0x38
+ .text.libgcc.prologue
+                0x000000000000104e       0x38 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_prologue.o)
+                0x000000000000104e                __prologue_saves__
+
+.text.libgcc.prologue
+                0x0000000000001086       0x36
+ .text.libgcc.prologue
+                0x0000000000001086       0x36 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_epilogue.o)
+                0x0000000000001086                __epilogue_restores__
+
+.text.Decapsulate
+                0x00000000000010bc       0x34
+ .text.Decapsulate
+                0x00000000000010bc       0x34 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x00000000000010bc                Decapsulate
+
+.text.StartTransmission
+                0x00000000000010f0       0x30
+ .text.StartTransmission
+                0x00000000000010f0       0x30 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x00000000000010f0                StartTransmission
+
+.text.eepromPutByte
+                0x0000000000001120       0x22
+ .text.eepromPutByte
+                0x0000000000001120       0x22 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+                0x0000000000001120                eepromPutByte
+
+.text.appCommRequestPutBuffer
+                0x0000000000001142       0x20
+ .text.appCommRequestPutBuffer
+                0x0000000000001142       0x20 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001142                appCommRequestPutBuffer
+
+.text.appCommResetButton
+                0x0000000000001162       0x20
+ .text.appCommResetButton
+                0x0000000000001162       0x20 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001162                appCommResetButton
+
+.text.appCommRequestGetBuffer
+                0x0000000000001182       0x20
+ .text.appCommRequestGetBuffer
+                0x0000000000001182       0x20 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001182                appCommRequestGetBuffer
+
+.text.buttonGetEvent
+                0x00000000000011a2       0x20
+ .text.buttonGetEvent
+                0x00000000000011a2       0x20 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(button.o)
+                0x00000000000011a2                buttonGetEvent
+
+.text.appMain   0x00000000000011c2       0x1e
+ .text.appMain  0x00000000000011c2       0x1e build/Atmega8/production/src/app.o
+                0x00000000000011c2                appMain
+
+.text.eepromGetByte
+                0x00000000000011e0       0x1c
+ .text.eepromGetByte
+                0x00000000000011e0       0x1c ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(eeprom.o)
+                0x00000000000011e0                eepromGetByte
+
+.text.getSystemTick
+                0x00000000000011fc       0x1a
+ .text.getSystemTick
+                0x00000000000011fc       0x1a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                0x00000000000011fc                getSystemTick
+
+.text.FrameLRC  0x0000000000001216       0x1a
+ .text.FrameLRC
+                0x0000000000001216       0x1a ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000001216                FrameLRC
+
+.text.appBoot   0x0000000000001230       0x18
+ .text.appBoot  0x0000000000001230       0x18 build/Atmega8/production/src/app.o
+                0x0000000000001230                appBoot
+
+.text.appCommFree
+                0x0000000000001248       0x18
+ .text.appCommFree
+                0x0000000000001248       0x18 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001248                appCommFree
+
+.text.libgcc.mul
+                0x0000000000001260       0x18
+ .text.libgcc.mul
+                0x0000000000001260       0x18 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_umulhisi3.o)
+                0x0000000000001260                __umulhisi3
+
+.text.systemTickInit
+                0x0000000000001278       0x16
+ .text.systemTickInit
+                0x0000000000001278       0x16 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(sys.o)
+                0x0000000000001278                systemTickInit
+
+.text.libgcc.mul
+                0x000000000000128e       0x14
+ .text.libgcc.mul
+                0x000000000000128e       0x14 c:/program files/microchip/xc8/v2.32/avr/bin/../lib/gcc/avr/5.4.0/avr4/memx-const\libgcc.a(_muluhisi3.o)
+                0x000000000000128e                __muluhisi3
+
+.text.Buffer_Is_Full
+                0x00000000000012a2       0x12
+ .text.Buffer_Is_Full
+                0x00000000000012a2       0x12 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                0x00000000000012a2                Buffer_Is_Full
+
+.text.csma_StartTimer
+                0x00000000000012b4       0x12
+ .text.csma_StartTimer
+                0x00000000000012b4       0x12 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x00000000000012b4                csma_StartTimer
+
+.text.byteBufferInit
+                0x00000000000012c6       0x10
+ .text.byteBufferInit
+                0x00000000000012c6       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                0x00000000000012c6                byteBufferInit
+
+.text.Buffer_Is_Empty
+                0x00000000000012d6       0x10
+ .text.Buffer_Is_Empty
+                0x00000000000012d6       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buffers.o)
+                0x00000000000012d6                Buffer_Is_Empty
+
+.text.buzPeriodDone
+                0x00000000000012e6       0x10
+ .text.buzPeriodDone
+                0x00000000000012e6       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x00000000000012e6                buzPeriodDone
+
+.text.IsCommunicationOpen
+                0x00000000000012f6       0x10
+ .text.IsCommunicationOpen
+                0x00000000000012f6       0x10 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x00000000000012f6                IsCommunicationOpen
+
+.text.buzInit   0x0000000000001306        0xe
+ .text.buzInit  0x0000000000001306        0xe ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x0000000000001306                buzInit
+
+.text.csma_RestTimer
+                0x0000000000001314        0xe
+ .text.csma_RestTimer
+                0x0000000000001314        0xe ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000001314                csma_RestTimer
+
+.text.appReadEvent.part.0
+                0x0000000000001322        0xc
+ .text.appReadEvent.part.0
+                0x0000000000001322        0xc build/Atmega8/production/src/app.o
+
+.text.appCommsetCencel
+                0x000000000000132e        0xc
+ .text.appCommsetCencel
+                0x000000000000132e        0xc build/Atmega8/production/src/AppCommuincation.o
+                0x000000000000132e                appCommsetCencel
+
+.text.appCommClearCencel
+                0x000000000000133a        0xc
+ .text.appCommClearCencel
+                0x000000000000133a        0xc build/Atmega8/production/src/AppCommuincation.o
+                0x000000000000133a                appCommClearCencel
+
+.text.OnHostFrame
+                0x0000000000001346        0xa
+ .text.OnHostFrame
+                0x0000000000001346        0xa ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000001346                OnHostFrame
+
+.text.OnClientFrame
+                0x0000000000001350        0xa
+ .text.OnClientFrame
+                0x0000000000001350        0xa ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x0000000000001350                OnClientFrame
+
+.text.buzOn     0x000000000000135a        0x8
+ .text.buzOn    0x000000000000135a        0x8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x000000000000135a                buzOn
+
+.text.buzOFF    0x0000000000001362        0x8
+ .text.buzOFF   0x0000000000001362        0x8 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(buz.o)
+                0x0000000000001362                buzOFF
+
+.text.appInit   0x000000000000136a        0x6
+ .text.appInit  0x000000000000136a        0x6 build/Atmega8/production/src/app.o
+                0x000000000000136a                appInit
+
+.text.getcommStateCMD
+                0x0000000000001370        0x6
+ .text.getcommStateCMD
+                0x0000000000001370        0x6 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001370                getcommStateCMD
+
+.text.getState  0x0000000000001376        0x6
+ .text.getState
+                0x0000000000001376        0x6 build/Atmega8/production/src/AppCommuincation.o
+                0x0000000000001376                getState
+
+.text.csmaDriver
+                0x000000000000137c        0x4
+ .text.csmaDriver
+                0x000000000000137c        0x4 ..\..\..\MEGA\mega.X\dist\ATmega8\production\mega.X.a(csma_cd.o)
+                0x000000000000137c                csmaDriver
+
+.text           0x0000000000001380        0x2
+ .text          0x0000000000001380        0x2 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATmega_DFP/2.4.131/xc8/avr/lib/avr4/memx-const/crtatmega8.o
+                0x0000000000001380                __vector_12
+                0x0000000000001380                __bad_interrupt
+                0x0000000000001380                __vector_3
+                0x0000000000001380                __vector_13
+                0x0000000000001380                __vector_17
+                0x0000000000001380                __vector_7
+                0x0000000000001380                __vector_5
+                0x0000000000001380                __vector_4
+                0x0000000000001380                __vector_2
+                0x0000000000001380                __vector_15
+                0x0000000000001380                __vector_8
+                0x0000000000001380                __vector_14
+                0x0000000000001380                __vector_10
+                0x0000000000001380                __vector_16
+                0x0000000000001380                __vector_18
+
+.text.appSync   0x0000000000001382        0x2
+ .text.appSync  0x0000000000001382        0x2 build/Atmega8/production/src/app.o
+                0x0000000000001382                appSync
